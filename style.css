@@ -46,8 +46,8 @@ p {
 .links a {
   display: block;
   text-decoration: none;
-  background: #a3b982;
-  color: #3d5345;
+  background: #d4a85f;
+  color: #3d2e1e;
   font-weight: bold;
   padding: 0.75rem 1.2rem;
   margin: 0.5rem 0;
@@ -59,7 +59,7 @@ p {
 }
 
 .links a:hover {
-  background: #879e6c;
+  background: #b98a49;
 }
 
 footer {
