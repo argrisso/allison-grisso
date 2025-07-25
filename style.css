@@ -1,31 +1,35 @@
 body {
   font-family: 'Segoe UI', sans-serif;
-  background: #f1dfbb;
-  color: #ffffff;
+  background: #f8f1e3;
+  color: #3d5345;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 2rem;
+  margin: 0;
+  min-height: 100vh;
 }
 
 .profile-pic {
-  height: 150px;
-  object-fit: cover;
+  height: 160px;
   margin-bottom: 1rem;
 }
 
 h1 {
   font-family: 'Arbutus Slab', serif;
   margin: 0.2rem 0;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   color: #3d5345;
+  text-align: center;
 }
 
 h2 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin: 0.2rem 0 1rem;
   font-weight: normal;
-  color: #4a6f56;
+  color: #5e715a;
+  font-size: 1.2rem;
+  text-align: center;
 }
 
 p {
@@ -33,28 +37,34 @@ p {
   color: #161c1c;
   max-width: 400px;
   text-align: center;
+  font-size: 1rem;
+  background: #fdfaf2;
+  padding: 1rem 1.2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
 }
 
 .links a {
   display: block;
   text-decoration: none;
-  background: #575f25;
-  color: #ffffff;
+  background: #a3b982;
+  color: #3d5345;
   font-weight: bold;
   padding: 0.75rem 1.2rem;
   margin: 0.5rem 0;
-  border-radius: 8px;
-  transition: background 0.2s ease;
+  border-radius: 10px;
+  transition: background 0.3s ease;
   max-width: 300px;
   text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.06);
 }
 
 .links a:hover {
-  background: #3D5345;
+  background: #879e6c;
 }
 
 footer {
   margin-top: 2rem;
   font-size: 0.9rem;
-  color: #aaa;
+  color: #9a8b7a;
 }
